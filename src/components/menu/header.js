@@ -31,7 +31,7 @@ const NavLink = (props) => {
 
 
 const Header= function() {
-
+  const navigate = useNavigate();
     const [openMenu, setOpenMenu] = React.useState(false);
     const [openMenu1, setOpenMenu1] = React.useState(false);
     const [openMenu2, setOpenMenu2] = React.useState(false);
