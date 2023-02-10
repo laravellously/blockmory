@@ -180,7 +180,7 @@ const Header= function() {
                       <NavLink to="/explore">Explore</NavLink>
                     </div>
                     <div className='navbar-item'>
-                      <NavLink to="/pricingy">Pricing</NavLink>
+                      <NavLink to="/price">Pricing</NavLink>
                     </div>
                     <div className='navbar-item'>
                       <NavLink to="/activity">Activity</NavLink>
