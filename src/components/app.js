@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import ScrollToTopBtn from './menu/ScrollToTop';
 import Header from './menu/header';
-import Home from './pages/home';
+import Home from './pages/home2';
 import Home1 from './pages/home1';
 import Home2 from './pages/home2';
 import Explore from './pages/explore';
