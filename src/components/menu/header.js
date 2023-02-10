@@ -78,14 +78,8 @@ const Header= function() {
     const closePop = () => {
       btn_icon_pop(false);
     };
-    const closeNot = () => {
-      btn_icon_not(false);
-    };
     const refpop = useOnclickOutside(() => {
       closePop();
-    });
-    const refpopnot = useOnclickOutside(() => {
-      closeNot();
     });
 
     const handleLogout = () => {
